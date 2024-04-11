@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .x 
+        {
+            height: 100px;
+            width: 100px;
+            background: gray;
+            margin: 100px auto;
+
+            /* animation-name: kuchBhi;
+            animation-duration: .21s;
+            animation-iteration-count: infinite; */
+      
+            animation: kuchBhi 4s 2s linear infinite ;
+        }
+        /* .x:hover 
+        {
+            background: green;
+        } */
+
+        /* @keyframes animationName 
+        {
+            from{propety:value,pro:val}
+            to{propety:value,pro:val}
+        } */
+
+        /* @keyframes kuchBhi
+        {
+            from{background: gray;}
+            to{background: red;}
+        } */
+
+        @keyframes kuchBhi
+        {
+            0%{background: gray;}
+            20%{background: green;}
+            40%{background: blue;opacity: 0.3;height: 300px;width: 300px;}
+            60%{background: transparent;height: 0;width: 0;transform: rotate(360deg);}
+            80%{background: linear-gradient(red,blue,#000,rgba(255,255,255,0.4));border-radius: 50%;}
+            100%{background: red;}
+        }
+
+
+
+        body 
+        {
+            overflow-x: hidden;
+        }
+
+        .y
+        {
+            height: 100px;
+            width: 100px;
+            background: powderblue;
+            
+            margin: 200px auto;
+        
+            /* animation-name: Devarsh;
+            animation-duration: 1s;
+            animation-iteration-count: 5; */
+            animation:Devarsh 1s linear infinite alternate-reverse;
+        }
+
+
+        @keyframes Devarsh
+        {
+            /* from{ background: gray;}
+            to{background: green;} */
+            0%{background: gray;}
+            20%{background: linear-gradient(red,blue);transform: translate(1200px,200px) rotate(360deg) scale(1);}
+            40%{background: url(https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80);background-size: 100% 100%;}
+            60%{background: gray;}
+            80%{background: rgba(255,255,255,0.1);box-shadow: 0 0 20px #000;border-radius: 50px;}
+            100%{background: pink;}
+        }
+    </style>
+</head>
+<body>
+
+    <div class="x"></div>
+    <div class="y"></div>
+    <pre>
+
+        animation-name: kuchBhi;
+        animation-duration: .21s;
+        animation-iteration-count: infinite;
+        animaion-deley:1s;
+
+        animation name :- kuchBhi (kai pan name)
+        animation-duration :-kitne time tak hoga animation(1s,2s,5s etc...)
+        animation-iteratio-count :- animation kitniko kitni bar count kavaoge(1,2,3, infinite etc...)
+        animation-deley :-kitni der k bad count hoga animation (1s,2s,5s etc... )
+
+hover karne pe changes hoge vo sub animaion pe bhi hoge.
+
+<u>defftent</u>
+        :- hover pe hover karne pe animation start hoga. or
+        :-  animation pe direct start hoga. or starting continue bhi rakha sak te hia.
+
+
+        =>@keyframes ke bina anmation work nahi karega 
+        @keyframes main jo name diya hai wo animation pe dena padega otherwise animation work karegi.
+
+        @keyframes animationName 
+        {
+            from{propety:value,prop:val}  => pahele se animatio ki position kya hogi wo
+            to{propety:value,prop:val}    => bad main animation ki posotin kaya hogi wo
+        }
+
+        @keyframes animationName {
+
+            0%{background: gray;}  
+            50%{background: green;} =>50% pe green hoga
+            75%{background: gray;} => 75% pe gray hoga
+            100%{background: green;} 
+
+        }
+
+
+
+        classs y ko naimation main x-asix pe 1200px kiya hua hai
+        body mian overflow-x:hidden mahi kiya to scroll bar active kargega.
+    
+    </pre>
+</body>
+</html>

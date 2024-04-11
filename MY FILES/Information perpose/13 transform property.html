@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .x 
+        {
+            height: 100px;
+            width: 100px;
+            background: gray;
+            /* margin-left: 200px;
+            margin-bottom: 300px; */
+            /* margin: 100px; */
+            /* transform: translate(x,y); */
+            /* margin-left: 200px;
+            margin-top: 300px; */
+             /* transform: translate(200px,0); */
+             transform: translate(400px,300px);
+            /* transform: rotate(45deg); */
+            
+
+        }
+             
+        .y
+        {
+            height: 100px;
+            width: 100px;
+            background: blue;
+             /* margin-left: 200px; */
+            transform: rotate(45deg);
+             transform: rotate(-45deg);
+             }
+             
+       .z {
+            height: 100px;
+            width: 100px;
+            background: green;
+             margin-left: 200px;
+             transform: scale(2);
+             
+    }
+
+    div 
+        {
+            height: 100px;
+            width: 200px;
+            background: gray;
+            transform: skew(130deg) translate(600px,0);
+        }
+
+        .div2{
+            height: 100px;
+            width: 200px;
+            background: red;
+            transform: translate(900px,00px) rotate(135deg) scale(2.5) skew(180deg) ;
+
+/* order right to left  */
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="x"></div>
+    <div class="y"></div>
+    <div class="z"></div>
+    <div class="div"></div>
+    <div class="div2"></div>
+
+    <pre>
+
+
+
+
+==>transform: translate; karnese x-axis or y-axis ki movement main move karega.
+==>usko hum margin de ke bhi move karsak te hai to......
+
+ why use translate property? which deffrent between?
+
+==>only for container ko hi taget karega or move ki direction dega.
+==>magin ko top se margin dengo to wo apna dusra container ko bhi move kardenga.
+
+transform:rotate: kanese hum apne container ko( 0-360 deg.) rotate kar sak te ahi
+transform translate or rotate dono property ek container ko alg alg dene se  x- or y- axis ke direction pe rotate nahi hogi.( lekin overight hojayego.)
+
+transform:scale karne se wo multiple hoga 2x,3x ase ex(H or W 100px hai to wo scale(2) karne se 200px hogi).lekin wo containe ke under se apni size dega.
+
+
+translate;skew kane se wo done side se contain ko khich(skew) denga
+
+transform ki ek container ke under ek se juyada value bhi le sa k  ta hai. lekin uski direction right to left apply hogi.
+
+    </pre>
+</body>
+</html>

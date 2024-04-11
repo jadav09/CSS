@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>What is CSS</h1>
+
+    <p>CSS stands for Cascading Style Sheets</p>
+    <p>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</p>
+    <br>
+
+    <p><b>three way to apply the CSS</b></p>
+
+    <p><b> 1.INLINE</b></p>
+    <li>(jub hum start tag ke under style apply karte hai to wo inline) </li><br>
+
+    <li>&lt;startTag style="property:value;property:value"&gt;&lt;/endTag &gt; </li><br>
+
+    <li> examples=>  &nbsp;&nbsp;&nbsp;&nbsp; &lt; p style="color:red"&gt; PARA &lt;/p&gt; </li><br><br>
+
+    <P><b> 2.INTERNAL</b></P>
+   <li> (jub hum &lt;head &gt; tag ke under styel lete hai to wo internal type hai)</li><br>
+   
+   &lt;head &gt; <br>
+   &lt;style &gt; <br>
+   <pre>     tagName/Element Selector
+        {
+            property:value;
+            property:value;
+        }
+
+        p,h1,div,b (group selector)
+    {
+        color:red;
+    }
+    .className
+    {
+        property:value;
+         property:value;
+    }
+
+    #idName
+    {
+        property:value;
+            property:value;
+    }
+
+   &lt;style/ &gt; <br>
+</pre>
+
+<P><b>3. EXTERNAL</b></P>
+<LI>==> create a file and save it as anyName.css
+</LI>
+<li>call that css into your html page using link tag inside head tag</li>
+<br>
+&lt;head &gt; <br>
+    &lt;link rel="stylesheet" href="path/filename.type"&gt; <br>
+    &lt;head/ &gt;
+<br><br>
+    <li>three type mian bhi highest prioriey inline style ki hai. </li>
+    <li> (!Important) ki priority inline style se bhi jyada hai. <br>ager apne inline style or external style dono liya or external style main (!Important) le liya to (!Important) mark kiya usi style apply kargi </li>
+    <br><br><br>
+    <p><b>why use extrnal style in css</b></p>
+    <li>The external style sheet is generally used when you want to make changes on multiple pages</li>
+    <li>(hum koi maltiple file pe work kar rahai hai or ek style sheet se cheges karna hai tab use hota hai.) <br> & save your loat of times.</li>
+</body>
+
+</html>

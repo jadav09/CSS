@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css color</title>
+    <style>
+        li{
+    font-weight: bold;
+        }
+        p{
+    line-height: 0.5;
+
+        }
+        span{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1> many tipes apply the css color</h1>
+
+    <li>Normal color</li>
+    <p style="color:blue">Name Color</p>In CSS, a color can be specified by using a predefined color name</p>
+    <p>(normal color main direct color name likha ker color apply kar sak te hai.)</p>
+
+    <li>RGB</li>
+    <p style="color:rgb(58, 137, 66)">RGB Color</p> RGB : Red Green Blue </p>
+    <p>Each parameter (red, green, and blue) defines the intensity of the color between 0 and 255.
+    </p>
+    <p>For example, rgb(255, 0, 0) is displayed as red, because red is set to its highest value (255) and the others are set to 0.</p>
+    <p>To display black, set all color parameters to 0, like this: rgb(0, 0, 0).</p>
+    <p>To display white, set all color parameters to 255, like this: rgb(255, 255, 255).</p>
+
+    <li>RGBA</li>
+    <p  style="color:rgba(58, 137, 66,0.45)">RGBA Color</p>
+<p>rgba(red, green, blue, alpha)</p>
+<p> rgba ==> a : alpha (default =1)==> opacity ==> Range = 0 to 1</p>
+
+    <li>HEX</li>
+    <p style="color:#ff0000">HEX Color</p>
+    <p>A hexadecimal color is specified with: #RRGGBB</p>
+    <p>where the RR (red), GG (green) and BB (blue) are hexadecimal values between 00 and ff (same as decimal 0-255).
+    </p>
+    <p>For example, #ff0000 is displayed as red, because red is set to its highest value (ff) and the others are set to the lowest value (00).</p>
+    <p>To display black, set all values to 00, like this: #000000.</p>
+    To display white, set all values to ff, like this: #ffffff. 
+
+    <li>HSL</li>
+    <p style="color:hsl(69, 84%, 43%)">HSL Color</p>
+    <p> Hue Saturation Lightness</p>
+    <p><span>Hue</span> is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.  </p>
+    <p><span>Saturation</span> is a percentage value. 0% means a shade of gray, and 100% is the full color</p>
+    <p><span>Lightness</span> is also a percentage. 0% is black, 50% is neither light or dark, 100% is white</p>
+
+    <li>HSLA</li>
+    <p>hsla(hue, saturation, lightness, alpha)</p>
+    <p style="color:hsla(300, 84%, 43%,.42)">HSLA Color</p>
+<p> ==> a : alpha (default =1)==> opacity ==> Range = 0 to 1</p>
+
+
+</body>
+</html>

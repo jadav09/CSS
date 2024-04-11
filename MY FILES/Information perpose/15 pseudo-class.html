@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        /*
+         tagname:pseudo-ClassName
+        #id:pseudo-ClassName
+        .class:pseudo-ClassName
+         */
+
+        /* h1:first-child 
+        {
+            background: lightblue;
+        } */
+
+        h1:first-child 
+      {
+        color:red;
+        background: lightblue;
+        font-size: 54px;
+      }
+
+      #d:last-child 
+      {
+        color:red;
+        background: coral;
+        font-size: 54px;
+      }
+
+      .x:nth-child(3),.x:nth-child(2)
+      {
+        color:green;
+        background: darkgoldenrod;
+        font-size: 54px;
+      }
+
+      input 
+      {
+        height: 40px;
+        width: 500px;
+        margin: 50px;
+        font-size: 55px;
+        color:red;
+        border: none;
+        border-bottom: 3px solid red;
+        background: lightblue;
+
+      }
+
+    
+      input:hover 
+      {
+        background: green;
+      }
+
+      /*     */
+
+      a:hover 
+      {
+        color:green;
+      }
+      a:active 
+      {
+        color:yellow;
+      }
+      a:link 
+      {
+        color:blueviolet;
+      }
+      a:visited 
+      {
+        color:pink;
+      }
+       
+    </style>
+</head>
+<body>
+
+    <a href="" target="_blank">LINK</a>
+
+    <input type="text" placeholder="Enter Name">
+
+    <div>
+        <h1 id="d" class="x">hello 1</h1>
+        <h1  id="d" class="x">hello 1</h1>
+        <h1  id="d" class="x">hello 1</h1>
+        <h1 id="d" class="x">hello 1</h1>
+    </div>
+    <pre>
+    ==>    agre apke ke container main ek se jyada same contain hai. or apko without  inline style ,Id or class ke bina kuch changes karna hai. tab ap <b>pseudo class</b>  ka uses kar sa kte ho.
+
+    ==> uper wale div container mai ek se jyada h1 tag hai or hame koi ek ko (without inline style, id or class) changes karna hia.
+
+        tagname:pseudo-ClassName   :-  h1:first-child
+        (direct tag name lede)
+       
+        #id:pseudo-ClassName       :- #d:last-child
+        (ek se jyada id hia tab id leke)
+
+        .class:pseudo-ClassName    :- .x:first-child
+        (ek se jyada claas hai tab class le ke)
+
+        ==> <u>note:-</u> ek se jyad tag main hum first or last ko direct le sakte hai.kyu ki ye child ki value parant ke hisab se fixed hogi.
+        ager hum koi second or third wale ko chages kreg to.....
+
+        .x:nth-child(3) lena padega.
+
+        ======================================================================>
+       => ancar link ko bhi hum alg direction main open kar sakte hai.
+
+        a:hover :-touch karne se changes hoga.
+        a:active :- click karne se changes hoga.
+        a:visited :-pata chale ki ham ne ek bar visit kar li hai.
+
+
+        =======================================================================>
+
+        Input:focuse property (focuse mode inpute types wale tag (or othars diffrent tag) main hi apply hogi.)
+
+        jab hum input box main click kare tab koi changes hoga. wo hum input :focuse property se kar sak te hai.
+
+
+
+    </pre>
+
+
+</body>
+</html>

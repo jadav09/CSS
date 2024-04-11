@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="54style.css"> -->
+    <style>
+        body *
+{
+    border:2px solid;
+  
+}
+
+.header,.content,.footer
+{
+    display: flex;
+}
+
+.col1
+{
+    width: 20%;
+}
+.col2
+{
+    width: 80%;
+}
+.colx 
+{
+    width: 25%;
+}
+
+.x 
+{
+    width: 33.33%;
+}
+
+/* ****************float******************* */
+
+.main{
+    /* display: flex; */
+}
+.d1{
+    width: 33.33%;
+    height: 50px;
+    float: left;
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="header">
+
+        <div class="col1">COl 1</div>
+        <div class="col2">COl 2</div>
+
+    </div>
+
+    <div class="nav">Navabar</div>
+
+    <div class="content">
+        <div class="colx">col 1</div>
+        <div class="colx">col 2</div>
+        <div class="colx">col 3</div>
+        <div class="colx">col 4</div>
+    </div>
+
+    <div class="footer">
+        <div class="x">1</div>
+        <div class="x">2</div>
+        <div class="x">3</div>
+    </div>
+
+
+    <pre>
+    => by defult width 100% hoti hai.   
+    => main container (parent) ki display-flex karne se child container horizontal line man hoga.
+    
+
+   ==>float:left lene se bhi horizontal line main honge.but
+    hame sub container main ko flote likhane jana padega.
+    float main kisi ek child-containder ki width jayada hai to wo bahar fake denga.
+    lekin display flex main kisi bhi container ki width kitni bhi jyada kyu na ho wo main container main hi rahenge.
+
+    <div class="main">
+        <div class="d1"></div>
+        <div class="d1 d2"></div>
+        <div class="d1 d3"></div>
+    </div>
+
+
+
+
+
+
+    </pre>
+    
+</body>
+</html>

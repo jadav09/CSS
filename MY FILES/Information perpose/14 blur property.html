@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height: 250px;
+            width: 250px;
+        }
+        .blur 
+        {
+            filter: blur(1px);
+        }
+        .bright 
+        {
+            filter: brightness(150%);
+        }
+
+        .contrast 
+        {
+            filter: contrast(150%);
+        }
+
+        .BW 
+        {
+            filter: grayscale(100%);
+        }
+        .saturate 
+        {
+            filter: saturate(250%);
+        }
+        .neg 
+        {
+            filter:invert(100%)
+        }
+        .hue 
+        {
+            filter: hue-rotate(-45deg);
+        }
+        .pataNai 
+        {
+            /* filter: drop-shadow(9px 9px 6px red); */
+            box-shadow: 9px 9px 6px red;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <img src="../../images/jadav.gisf.jpg">
+    <img src="../../images/jadav.gisf.jpg" class="blur">
+    <img src="../../images/jadav.gisf.jpg" class="bright">
+    <img src="../../images/jadav.gisf.jpg" class="contrast">
+    <img src="../../images/jadav.gisf.jpg" class="BW">
+    <img src="../../images/jadav.gisf.jpg" class="saturate">
+    <img src="../../images/jadav.gisf.jpg" class="neg">
+    <img src="../../images/jadav.gisf.jpg" class="hue">
+    <img src="../../images/jadav.gisf.jpg" class="pataNai">
+
+     filter blur ki diffrent diffrent value se img main changes la sak te hai.
+    
+</body>
+</html>

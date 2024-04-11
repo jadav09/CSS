@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .x
+        {
+            height: 100px;
+            width: 100px;
+            background: lightblue;
+            text-align: center;
+            line-height: 100px;
+            margin: auto;
+
+            /* margin: 100px 0 0 100px; */
+            /* top right bottom left */
+            /* margin: 50px 50px ; */
+            /* top/bottom   right/Left */
+            /* margin: 50px; */
+            margin-top: 50px;
+            margin-bottom: 40px;
+            /* margin-left: 80px; */            
+        }
+        .y{
+          height: 100px;  
+          width: 100px;
+          background-color: blueviolet;
+          margin: auto;
+           /* padding: 100px 0 0 100px; */
+            /* top right bottom left */
+            /* padding: 50px 50px ; */
+            /* top/bottom   right/Left */
+            padding: 50px;
+            box-sizing: border-box;
+
+          
+        }
+    </style>
+</head>
+<body>
+    <p style="text-align: center;">MARGIN</p>
+    <div class="x">
+        HELLO
+    </div>
+    <pre>
+        margin apne parant ke hisab se pura contain move karta hai.
+        (ex:- class=.x hai vo child hai or body parant hai.to div body ke hisab se move karega. )
+         hame two box ke bich space chahiye to hum margin use karenge.
+
+         margin: 100px 0 0 100px;
+         (top right bottom left) 
+         [yeh margin ki shorthand property hai(clockwise move karegi)]
+
+         margin: 50px 50px ; 
+         top/bottom =50px  right/Left=50px hogi
+
+         margin: 50px;
+         (direct margin 50px lene se clockwise (top,right,bottom,left) 50px apply hogi.)
+
+         margin:auto;
+         (left/right se center main hoga.)
+
+        margin-top: 50px;
+        (only top se 50px move hoga.)
+
+        margin-right: 80px;
+        (only right se 80px move hoga.)
+
+        margin-bottom: 40px; 
+        (only bottom se 40px move hoga.)
+
+        margin-left: 100px
+        (only left se 100px move hoga)
+
+        text-aline: center 
+        [center lese text ko center main(left/right se)  leke ayega.]
+
+        line-hight:100px
+        [line hight ko div ki hight dede to wo(top/bottom se) text ko center main kardega.]
+
+    </pre>
+    <p style="text-align: center;">PADDING</p>
+
+    <div class="y">
+        hello
+    </div>
+
+    <pre>
+        hame box ke under under space chahiye tub hum padding use karegne.
+        as it is some margin property.
+        margin ki tarah padding ki auto value nahi hoti.wo apni hisab se auto nahi hoa sakta
+        
+
+         padding: 100px 0 0 100px; 
+         top right bottom left
+
+         padding: 50px 50px ;
+         top/bottom   right/Left 
+
+         padding: 50px;
+         top,right,bottom,left 50px hoga.
+
+         box-sizing:border-box:
+         (without creat extra space and apply the padding property.)
+         
+        
+        
+
+
+        padding dene se hamara contain bhi bada hota hai.
+        ex:-(container hight 200px + padding top 50px= total container higth=250px) 
+
+        age hame without creat extra spacing se padding dena hai.
+        tub hum box-sizing: border-box; property ka use karenge. 
+    
+</body>
+</html>

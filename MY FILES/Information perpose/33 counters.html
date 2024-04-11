@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body 
+        {
+            counter-set: Nilesh;
+            /* counter-reset: Nilesh; */
+            /* counter-increment: Nilesh; */
+
+
+            /* create counter... */
+        }
+        h3::after 
+        {
+            counter-reset:Nilesh ;
+            content:counter(Nilesh) ". ";
+        }
+    </style>
+</head>
+<body>
+
+    
+    <h3>Content 1</h3>
+    <h3>Content 1</h3>
+    <h3>Content 1</h3>
+    <h3>Content 1</h3>
+    <h3>Content 1</h3>
+    <h3>Content 1</h3>
+    <h3>Content 1</h3>
+    <h3>Content 1</h3>
+    <h3>Content 1</h3>
+    <h3>Content 1</h3>
+
+    <pre>
+        body mian (counder-set:anyname;) property dene se body main counter active hoga.(uske bina counter work nahi karega.)
+
+        (counter-increment:anyname same as body counter name) property se counter count karna start kardega.
+
+
+    </pre>
+
+
+</body>
+</html>

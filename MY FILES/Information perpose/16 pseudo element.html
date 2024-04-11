@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1::first-letter
+        {
+            color:red;
+        }
+
+        p::first-line 
+        {
+            background: lightgreen;
+        }
+        h2 {
+            font-size: 50px;
+        }
+
+        h2::before 
+        {
+            content: "Hello ";
+        }
+        h2::after
+        {
+            content: " Pata Nai...!";
+        }
+        h2:hover 
+        {
+            color:red;
+        }
+
+        h4 
+        {
+            font-size: 50px;
+        }
+        h4::after 
+        {
+            content: "\26F2";
+        }
+        h4::before 
+        {
+            content: url(https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg);
+           
+        }
+        
+        ::selection 
+        {
+            color:#fff;
+            background: #000;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <!-- tagname::pseudo-elementNAme -->
+     
+    <h4>
+        HE&nbsp;&nbsp;&nbsp;LLo
+    </h4>
+
+    <h2>Dharmesh</h2>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore magni nobis, cum eveniet cumque hic quae optio quis, ea impedit ipsum, laborum incidunt rem. Quo repellat itaque nemo dolor! Ratione, et temporibus odit doloribus qui perspiciatis rerum laudantium ipsa facilis voluptatem dolores exercitationem dolorem autem, dicta atque error recusandae ex!
+    </p>
+
+    <h1>Hello</h1>
+    <h1>Hello</h1>
+    <h1>Hello</h1>
+    <h1>Hello</h1>
+<pre>
+
+
+
+==>pseudo-element se hume child ke under k0i chages karna hai tab uses karte hai.
+(element mian changes kar sakte hai.)
+
+ager hame lot of h1 tag ke under koi  word or latter ko style dena hai.
+
+==> <b>note:-</b> tag ko hum double colon(::) main hi likhenge. otherwise  not apply.
+
+
+h1::first-letter :- h1  ke first latter ko style dega.
+p::first-line    :- p tag ki first line ko style dega.
+
+===============================================================>
+
+koi tag ke age-piche style through se likha na hai tab bhi uses hoga.
+
+h2::before 
+        {
+            content: "Hello ";
+        }
+(h1 tag ke age hello likha hua ayega)
+
+h2::after
+        {
+            content: "Hello ";
+        }
+
+(h1 tag ke piche hello likha hua ayega)
+
+====================================================================>
+
+doubel colon(::) main selection le ke hum website per koi text curser se select karenge tab style apply hogi.
+
+::selection 
+        {
+            color:#fff;
+            background: #000;
+        }
+(text ko curser se  select karne se color white or background black hoha.)
+</pre>
+
+</body>
+</html>

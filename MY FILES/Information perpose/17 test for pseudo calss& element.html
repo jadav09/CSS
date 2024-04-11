@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        h1::after 
+        {
+            content: "JADAV";
+        }
+
+        h1:hover::after
+        {
+            content: "DHARMESH";
+        }
+
+        b 
+        {
+            
+            background: lightblue;
+           
+        }
+        span 
+        {
+            display: none;
+        }
+        b:hover span
+        {
+            display: block;
+        }
+
+      
+        ul:hover li
+        {
+            color:red;
+            font-size: 50px;
+        }
+    
+        
+    </style>
+</head>
+<body>
+
+    <h1></h1>
+
+    <ul>
+    ul
+        <li>li</li>
+        </ul>
+
+        <b>
+            HELLO
+            <span>INFO</span>
+        </b>
+
+    <pre>
+    ==> tag main content se tag k age piche kuch bhi add kar sak te hai.
+    ==> h1 tag ke age jadav likha or hover karnese dharmesh hoga.
+
+    ==> b tag ko hover karnese span tag mai koi changes ho.
+         - span tag ki pehle se hi display none ki hai. or hover kane se block hogi.
+
+    .b:hover span
+    {
+        display:block;  
+    }
+
+
+
+    </pre>
+    
+</body>
+</html>
