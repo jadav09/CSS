@@ -1,0 +1,21 @@
+h1 {
+    border-color: black;
+    border-width: 5px;
+    border-style: groove;
+    border-color: blueviolet;
+}
+
+pre {
+    background-color: rgba(12, 2, 2, 0.822);
+    color: rgb(223, 33, 42);
+}
+
+#jadav {
+    background-color:rgba(12, 2, 2, 0.822);
+    color: rgb(7, 228, 18);
+}
+.ss1{
+    background-color:rgba(12, 2, 2, 0.822);
+    color: white;
+
+}

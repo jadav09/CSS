@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            /* height: 300px; */
+            /* width: 500px; */
+            margin: 200px 500px;
+            display: flex;
+        }
+        .d1{
+            height: 400px;
+            width: 300px;
+            background-color: rebeccapurple;
+            margin-right: 50px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        .d2{
+            height: 400px;
+            width: 300px;
+            background-color: rgb(158, 187, 29);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .d1a{
+            height: 200px;
+            width: 100px;
+            background-color:black;
+            border-radius: 50%;
+            margin-left: 50px;
+            animation: jadav 2s 3 linear  ;
+
+        }
+        .x{
+            height: 100px;
+            background-color:white;
+            transition: 2s;
+
+        }
+
+        @keyframes jadav{
+            from{ 
+                transform: translateX(0);
+                }
+
+
+            
+            to{
+                transform:translateX(-50px);
+                }
+            }
+            
+            
+            
+
+    </style>
+</head>
+<body>
+    <div class="main">
+
+        <div class="d1">
+            <div class="d1a"></div>
+        </div>
+
+        <div class="d2">
+            <div class="d1a"></div>
+        </div>
+    </div>
+    
+</body>
+</html> 

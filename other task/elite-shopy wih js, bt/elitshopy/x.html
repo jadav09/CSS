@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+
+       p
+        {
+            position: relative;
+            /* cursor: pointer; */
+        }
+
+        #y
+        {
+            background-color: red;
+            height: 100px;
+            width: 300px;
+            position: absolute;
+            top: 10;
+            left: 0;
+            display:none;
+            border: 2px solid black
+            
+
+        }
+        
+    </style>
+
+
+</head>
+
+<body>
+
+
+    <p onclick="jadav()"><a href="#">jadav</a>
+        <div id="y"></div>
+    </p>
+    
+
+    <script>
+
+          y_tag = document.getElementById("y")
+
+        //   y_tag.style.display="none"
+        //   y_tag.style.visibility="hidden"
+
+function jadav()
+{
+    if(y_tag.style.display=="")
+    {
+          y_tag.style.display="block"
+        //   y_tag.style.visibility="visible"
+    }
+
+    else 
+    {
+        y_tag.style.display=""
+    }
+
+}
+
+    </script>
+</body>
+</html>

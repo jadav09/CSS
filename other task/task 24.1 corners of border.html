@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+height: 300px;
+width: 500px;
+/* background-color: black; */
+margin: 100px auto;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+
+
+        }
+        .d1{
+            height: 150px;
+            width: 150px;
+            background:conic-gradient(red 0deg 90deg,transparent 90deg 3600deg);
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: translateX(350px);
+
+        }.d2{
+            height: 150px;
+            width: 150px;
+            background:conic-gradient(transparent 90deg 180deg,red 180deg 270deg,transparent 270deg 360deg);
+            transform: translateY(150px);
+            position: absolute;
+            top: 0;
+            left: 0;
+
+
+        }
+        .d3{
+            height: 260px;
+            width: 460px;
+            background-color:white;
+            text-align: center;
+            line-height: 260px;
+            font-size: 100px;
+            font-weight: bold;
+            position: absolute;
+            /* z-index: 1; */
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+
+        <div class="d1"></div>
+        <div class="d2"></div>
+        <div class="d3">JADAV</div>
+        
+        
+    </div>
+</body>
+</html>

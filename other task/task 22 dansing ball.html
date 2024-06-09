@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 600px;
+            background-color: black;   
+            position: relative;
+        }
+
+        .d1{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            animation: jadav 3.5s infinite linear alternate-reverse;
+        }
+
+        .box2{
+            background-color: rgb(196, 30, 168);
+            animation: jadav2 1.7s infinite linear alternate-reverse;
+
+        }
+        .box3{
+            background-color: rgba(192, 212, 4, 0.842);
+            animation: jadav3 1.7s infinite linear alternate-reverse;
+
+        }
+
+        @keyframes jadav{
+            
+
+            20%{
+                top: 500px;
+                left: 300px;
+            }
+            40%{
+                top: -50px;
+                left: 600px;
+            }
+            60%{
+                top: 500px;
+                left: 900px;
+            }
+            80%{
+                top:-50px;
+                left:1300px;
+            }
+
+        }
+        @keyframes jadav2{
+            
+
+            20%{
+                top: 100px;
+                left: 1100px;
+            }
+            40%{
+            right: -1300px;
+            left: 1020;
+        
+            }
+            60%{
+                top: 500px;
+                left: 900px;
+            }
+            80%{
+                top:-50px;
+                left:300px;
+            }
+
+        }
+
+        @keyframes jadav3{
+            
+
+            20%{
+                top: 100px;
+                left: 100px;
+            }
+
+            40%{
+                top: 300px;
+            left: 300px;
+        
+            }
+            60%{
+                top: 500px;
+                left: 500px;
+            }
+            80%{
+                top:0px;
+                left:300px;
+            }
+
+        }
+        /*
+        @keyframes jadav1{
+            from{
+                transform: translate(400px,500px);
+
+            }
+            to{
+
+                transform: translate(800px,0px);
+                
+            }
+        }
+        @keyframes jadav2{
+            from{
+                transform: translate(1250px,400px);
+
+            }
+            to{
+
+                transform: translate(200px,-100px);
+                
+            }
+        }
+        @keyframes jadav3{
+            from{
+                transform: translate(0px,0px);
+
+            }
+            to{
+
+                transform: translate(900px,300px);
+                
+            }
+        }
+
+        @keyframes jadav4{
+            from{
+                transform: translate(0px,0px);
+
+            }
+            to{
+
+                transform: translate(1300px,-200px);
+                
+            }
+        }
+        @keyframes jadav5{
+            from{
+                transform: translate(500px,-400px);
+
+            }
+            to{
+
+                transform: translate(0px,150px);
+                
+            }
+        } */
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="d1"></div>
+        <div class="d1 box2"></div>
+        <div class="d1 box3"></div>
+        <div class="d1 box4"></div>
+        <div class="d1 box5"></div>
+        <div class="d1 box6"></div>
+        <div class="d1 box7"></div>
+        <div class="d1 box8"></div>
+        <div class="d1 box9"></div>
+        <div class="d1 box10"></div>
+    </div>
+</body>
+</html>

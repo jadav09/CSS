@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .jadav{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            margin: 100px auto;
+            position: relative;
+        }
+        .j1,.j2{
+            height: inherit;
+            width: inherit;
+            position: absolute;
+            top: 0;
+            background-color: red;
+            transition: 1s;
+            opacity: 0;
+        }
+
+        .jadav:hover .j1{
+            transform: scale(1.5);
+            opacity:1;
+        }
+
+
+        .jadav:hover .j2{
+            transform: scale(1.6);
+            opacity:1;
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+    <div class="jadav">
+
+        <div class="j1">
+
+            <div class="j2"></div>
+
+        </div>
+    </div>
+    
+</body>
+</html>

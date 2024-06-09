@@ -1,0 +1,623 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+/* ********nav-start*********** */
+
+
+
+.dream-home{
+    background: url(wpresident-img/wpresidece-header.jpg);
+    block-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.dream-effect{
+    background-color: rgba(18, 16, 46, 0.5);
+    background-size:contain;
+}
+
+.logo img{
+    object-fit: contain;
+}
+
+
+
+
+
+
+ul li {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none; 
+}
+
+
+.nav ul li {
+    padding: 0px 10px;
+}
+
+
+.nav a{
+    font-size: 16px;
+    color:white;
+    text-decoration: none;
+    
+}
+
+.nav li a{
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+
+/* ********nav-second********** */
+
+
+
+
+.nav-second {
+    display: grid;
+    grid-template-columns: 2fr 5fr 3fr;
+    /* border: 2px solid yellow; */
+    padding: 10px 0px;
+    position: relative;
+
+}
+
+.list
+
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+}
+
+
+.pdg{
+    padding: 0px 10px;
+    color: white;
+    font-size: 18px;
+}
+
+
+
+/* home**** */
+
+
+
+.home {
+    position: relative;
+}
+
+
+
+
+.home1{
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    line-height: 2;
+    background-color: white;
+
+}
+
+
+
+.home1 a,
+.lis1 a,
+.element1 a{
+    color: black;
+    display: block;
+    text-align: left;
+    transition: 0.3s;
+    font-size: 14px;
+
+}
+
+
+.home1 i,
+.lis1 i,
+.element1 i
+
+{
+font-size: 10px;
+}
+
+
+
+
+
+.home1 a:hover{
+    padding-left: 20px;
+    background-color: #0073b1b1;
+
+}
+
+
+.home:hover .home1 {
+    visibility: visible;
+    top: 20px;
+}
+
+
+
+/* **map******* */
+
+
+
+
+.map{
+    position: relative;
+}
+
+
+
+.map1{
+width: 200px;
+position: absolute;
+top: 0;
+left: 100%;
+background-color: white;
+visibility: hidden;
+}
+
+
+
+
+.map1 ul li{
+    display: inline;
+}
+
+
+
+.map:hover .map1{
+    visibility: visible;
+}
+
+
+/* **splesh******* */
+
+
+.splesh{
+    position: relative;
+}
+
+
+
+.splesh1{
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left:100%;
+    background-color: white;
+    visibility: hidden;
+}
+
+
+.splesh:hover .splesh1{
+    visibility: visible;
+}
+
+
+
+
+/* <!-- pro-slider --> */
+
+
+
+
+.pro-slider{
+    position: relative;
+}
+
+
+.pro-slider1{
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: white;
+    visibility: hidden;
+}
+
+
+
+.pro-slider:hover .pro-slider1{
+    visibility: visible;
+}
+
+
+
+/* domes******* */
+
+
+
+.demos1 {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+
+
+.d1 a{
+    padding-left: 0px;
+    line-height: 1.8;
+    transition: 0.2s;
+    color:black;
+
+}
+
+.d1 a:hover{
+    padding-left: 30px;
+    color: #0073b1b1;
+}
+.d1 {
+    width: 25%;
+    text-align: center;
+    padding: 20px 0px;
+
+}
+
+.d1 ul li {
+    display: block;
+}
+
+
+.demos:hover .demos1 {
+    visibility: visible;
+}
+
+
+
+
+/* lis************ */
+
+
+
+
+.lis{
+    position: relative
+}
+
+.lis1{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    width: 200px;
+    line-height: 2;
+    background-color:white;
+}
+
+ 
+.lis1 a{
+    padding-left: 0px;
+    display: block;
+    /* text-align: left; */
+    transition: 0.3s;
+    color: black;
+
+}
+
+.lis1 a:hover {
+    padding-left: 20px;
+    background-color: #0073b1b1;
+
+}
+
+.lis:hover .lis1{
+    visibility: visible;
+    top: 20px;
+
+}
+
+/* half-map******* */
+
+.half-map{
+    position: relative;
+}
+.half-map1{
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    visibility: hidden;
+    background-color: white;
+}
+
+.half-map:hover .half-map1{
+    visibility: visible;
+}
+
+/* <!-- stander-pro-list********/ --> */
+
+.opo{
+    position: relative;
+}
+
+.guj{
+width: 200px;
+    background-color:white;
+    position: absolute;
+    top:40px;
+    visibility: hidden;
+    left:100%;
+}
+
+.opo:hover .guj{
+    visibility: visible;
+}
+
+
+
+
+
+/* property********** */
+
+
+
+
+.property1{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    visibility: hidden;
+    transition: 0.5s;
+    background-color: white;
+}
+
+.property:hover .property1{
+    visibility: visible;
+
+}
+
+
+
+/* pages********** */
+
+
+
+
+.pages1{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    visibility: hidden;
+    transition: 0.5s;
+    background-color:white;
+}
+
+.pages:hover .pages1{
+    visibility: visible;
+
+}
+
+
+
+/* element********** */
+
+
+
+.element{
+    position: relative;
+}
+
+
+.element1{
+
+    position: absolute;
+    width: 180px;
+    top: 50px;
+    left: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    line-height: 2;
+    background-color: white;
+}
+
+.element1 a{
+    padding-left: 0;
+    transition: 0.3s;
+    display: block;
+    color: black;
+    /* text-align: left; */
+
+}
+
+.element:hover .element1{
+    visibility: visible;
+    top: 20px;
+}
+
+.element1 a:hover{
+    padding-left: 20px;
+    background-color: #0073b1b1;
+}
+
+
+
+/*element-submenus****** */
+
+
+
+.pl,.f,
+.agent,.blog{
+    position: relative;
+
+}
+
+
+
+.pl1,.f1,
+.agent1,.blog1{
+    width: 150px;
+    position: absolute;
+    top: 0px;
+    left:100%;
+    background-color: white;
+    visibility: hidden;
+}
+
+
+.pl:hover .pl1,
+.f:hover .f1,
+.agent:hover .agent1,
+.blog:hover .blog1
+
+{
+    visibility: visible
+}
+
+
+
+/* search************ */
+
+
+
+
+.search1{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    visibility: hidden;
+    transition: 0.5s;
+    background-color:white;
+}
+
+.search:hover .search1{
+    visibility: visible;
+
+}
+
+
+/* contact*************8 */
+
+
+.contact{
+    display: flex;
+    align-items: center;
+}
+.contact a{
+    color: white;
+    font-size: 12px;
+}
+
+
+.contact ul li{
+    padding-right: 20px;
+}
+
+
+.btn{
+    height: 50px;
+    width: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0073b1b1;
+}
+
+
+
+
+
+/* ********drem************ */
+
+
+
+.dream {
+    
+    line-height: 1.5;
+    text-align: center;
+    padding: 200px 0px;
+    color: white;
+    font-size: 18px;
+     
+}
+
+.dream h1 {
+    padding: 30px 0px;
+    font-size: 50px;
+}
+
+
+
+
+/* contact2************* */
+
+
+
+
+/* pro-are************* */
+
+
+.pro-area{
+    text-align: center;
+    padding: 100px 0px;
+    line-height: 1.5;
+    background: #dcf0f8;
+    border: 1px solid;
+    position: relative;
+}
+
+
+
+
+.faclty
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+}
+
+.pro{
+    margin:2px;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    width: 100px;
+    background-color: #0073e1;
+}
+
+
+/* *********contry*********8 */

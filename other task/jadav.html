@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 100px;
+            width: 100px;
+            background-color: gray;
+            margin: 100px auto;
+            position: relative;
+            border-radius: 50%;
+
+
+
+        }
+
+        .main::after{
+            content: "";
+            height: 100px;
+            width: 100px;
+            background-color: gray;
+            position: absolute;
+            transition: 1s;
+            opacity: 0;
+            border-radius: 50%;
+        }
+
+        .main:hover::after{ 
+            transform: scale(1.5);
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="main">
+
+    </div>
+</body>
+</html>
+
+
+
+

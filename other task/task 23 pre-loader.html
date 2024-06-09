@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .d {
+            height: 400px;
+            width: 400px;
+            position: relative;
+            /* background-color: aqua; */
+            margin: 100px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .d1 {
+            height: 200px;
+            width: 200px;
+            background: conic-gradient(powderblue 60%, blue);
+            border-radius: 50%;
+            animation: jadav 2s linear infinite;
+            position: relative;
+
+
+        }
+        .d1a{
+            height: 15px;
+            width: 15px;
+            background-color:blue;
+            position: absolute;
+            top: -1px;
+            left: 95px;
+        
+            border-radius: 50%;
+        
+        }
+
+        .d2 {
+            height: 180px;
+            width: 180px;
+            background: black;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            border-radius: 50%;
+            line-height: 180px;
+            transform: translateX(-190px);
+        }
+
+        @keyframes jadav {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d">
+        <div class="d1">
+            <div class="d1a"></div>
+        </div>
+        <div class="d2">
+            Loading ...
+        </div>
+
+    </div>
+</body>
+
+</html>
